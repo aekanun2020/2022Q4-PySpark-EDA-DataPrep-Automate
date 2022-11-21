@@ -8,7 +8,7 @@ sc = pyspark.SparkContext()
 
 spark = SparkSession(sc)
 
-server_name = "jdbc:sqlserver://34.72.0.181"
+server_name = "jdbc:sqlserver://34.125.84.134"
 database_name = "inclassdb"
 url = server_name + ";" + "databaseName=" + database_name + ";"
 
